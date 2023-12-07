@@ -11,7 +11,6 @@ public class Main {
         Functions.scrapeTeleportPage(days);
         StringBuilder formattedMessage = new StringBuilder();
         Functions.CreateMessage(days,formattedMessage);
-        System.out.println(formattedMessage);
         Functions.SendMessage(formattedMessage);
     }
 
